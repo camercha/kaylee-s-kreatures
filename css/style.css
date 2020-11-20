@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+}
+
+body{
+    display: grid;
+}
+
+.website-container{
+    display: grid;
+    background-color: green;
+}
