@@ -1,16 +1,66 @@
+
+html{
+
+}
+
 *{
     box-sizing: border-box;
+  
 }
 
 header{
+    grid-area: header;
+    background-color: red;
     text-align: center;
 }
 
-body{
-    display: grid;
+
+main{
+    grid-area: main;
+    background-color: teal;
 }
 
-.website-container{
-    display: grid;
-    background-color: green;
+
+
+main div{
+    background-color: greenyellow;
 }
+
+aside{
+    grid-area: aside;
+    background-color: blue;
+}
+
+
+
+
+.container-wrapper{
+    display: grid;
+    max-width: 2560px;
+    min-width: 95%;
+    grid-template-rows: 100px;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100vh;
+
+    grid-template-areas: 
+    "header header header"
+    "main main aside";
+}
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
