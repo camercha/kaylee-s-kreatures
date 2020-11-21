@@ -1,7 +1,4 @@
 
-html{
-
-}
 
 *{
     box-sizing: border-box;
@@ -12,7 +9,26 @@ header{
     grid-area: header;
     background-color: red;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+   
 }
+
+
+ul {
+    list-style: none;
+    padding-top: 10px;
+   
+ 
+}
+
+li{
+    display: inline;
+    padding: 15px;
+   
+}
+
+
 
 
 main{
@@ -47,6 +63,24 @@ aside{
     "main main aside";
 }
 
+
+@media(max-width:585px){
+ header{
+     flex-direction: column;
+ }
+
+ ul{
+     padding: 0px;
+ }
+
+
+.container-wrapper{
+    grid-template-rows: 150px;
+}
+
+
+
+}
 
    
 
