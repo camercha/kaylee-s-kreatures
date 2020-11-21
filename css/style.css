@@ -5,6 +5,10 @@
   
 }
 
+body{
+    background-color: teal;
+}
+
 header{
     grid-area: header;
     background-color: red;
@@ -32,8 +36,14 @@ li{
 
 
 main{
+    margin-top: 10px;
     grid-area: main;
     background-color: teal;
+    display: grid;
+    min-width: 95%;
+    grid-template-rows: 40% 30% 30%;
+    grid-template-columns:repeat(auto-fit,  minmax(280px,1fr));
+    grid-gap: 10px;
   
 }
 
@@ -41,6 +51,17 @@ main{
 
 main div{
     background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    text-align: center;
+}
+
+img{
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin: auto;
 }
 
 aside{
@@ -55,13 +76,13 @@ aside{
     display: grid;
     max-width: 2560px;
     min-width: 95%;
-    grid-template-rows: 100px;
+    grid-template-rows: 70px;
     grid-template-columns: 1fr 1fr 1fr;
     height: 100vh;
 
     grid-template-areas: 
     "header header header"
-    "main main aside";
+    "main main main";
 }
 
 
@@ -74,6 +95,8 @@ aside{
      padding: 0px;
  }
 
+
+ 
 
 .container-wrapper{
     grid-template-rows: 150px;
