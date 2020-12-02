@@ -24,7 +24,7 @@ header{
    
 }
 
-header h1{
+header h2{
     padding-left: 10px;
 }
 
@@ -77,15 +77,25 @@ li{
    width: 400px;
 }
 
+.description p{
+    font-size: 22px;
+}
 
 
 
 
 
+.gallery{
+display: grid;
+    grid-gap: 1rem;
+  
+   justify-items: center;
+
+    margin: auto;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr))
 
 
-
-
+}
 
 
 
