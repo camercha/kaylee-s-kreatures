@@ -78,6 +78,7 @@ li{
 }
 
 .description p{
+    line-height: 30px;
     font-size: 22px;
 }
 
