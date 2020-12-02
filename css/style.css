@@ -7,15 +7,30 @@
 
 body{
     background-color: teal;
+    font-family: 'Bubblegum Sans', cursive;
 }
 
 header{
     grid-area: header;
-    background-color: red;
+    background-color: #E56B6F;
     text-align: center;
     display: flex;
     justify-content: space-between;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
    
+}
+
+header h1{
+    padding-left: 10px;
+}
+
+
+header a{
+    color: white;
+    text-decoration: none;
 }
 
 
@@ -29,87 +44,16 @@ ul {
 li{
     display: inline;
     padding: 15px;
+    
    
 }
 
 
 
 
-main{
-    margin-top: 10px;
-    grid-area: main;
-    background-color: teal;
-    display: grid;
-    min-width: 95%;
-    grid-template-rows: 40% 30% 30%;
-    grid-template-columns:repeat(auto-fit,  minmax(280px,1fr));
-    grid-gap: 10px;
-  
-}
 
 
 
-main div{
-    background-color: greenyellow;
-    display: flex;
-    flex-direction: column;
-    border: 1px solid red;
-    text-align: center;
-}
-
-img{
-    display: block;
-    width: 50%;
-    height: 50%;
-    margin: auto;
-}
-
-aside{
-    grid-area: aside;
-    background-color: blue;
-}
-
-
-
-
-.container-wrapper{
-    display: grid;
-    max-width: 2560px;
-    min-width: 95%;
-    grid-template-rows: 70px;
-    grid-template-columns: 1fr 1fr 1fr;
-    height: 100vh;
-
-    grid-template-areas: 
-    "header header header"
-    "main main main";
-}
-
-
-@media(max-width:600px){
- header{
-     flex-direction: column;
- }
-
- ul{
-     padding: 0px;
- }
-
-
-img{
-    height: 70%;
-    width: 65%;
-}
-
- 
-
-.container-wrapper{
-    grid-template-rows: 150px;
-}
-
-
-
-}
 
    
 
