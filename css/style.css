@@ -93,7 +93,8 @@ li{
 .secondsection{
     display: flex;
     flex-direction: column;
-   align-items: center;
+
+   
 }
 
 
@@ -101,13 +102,14 @@ li{
 .gallery{
 display: grid;
     grid-gap: 1rem;
-
-   justify-items: center;
+justify-items: center;
+margin: auto;
 
 
     grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
     border: 1px solid red;
-
+  
+    
 
 }
 
@@ -138,6 +140,10 @@ img{
 
 .secondsection{
     width: 100%;
+}
+
+.gallery{
+    
 }
 
 li{
