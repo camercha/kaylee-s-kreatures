@@ -60,7 +60,7 @@ li{
     justify-content: center;
    color: white;
   background-position: center;
-  height: 500px;
+  height: 100vh;
   background-repeat: no-repeat;
   width: 100%;
   border:1px solid red;
@@ -90,17 +90,29 @@ li{
 }
 
 
+.secondsection{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+
+
 
 .gallery{
 display: grid;
     grid-gap: 1rem;
-  
+
    justify-items: center;
 
-    margin: auto;
-    grid-template-columns: repeat(auto-fill,minmax(200px,1fr))
+
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    border: 1px solid red;
 
 
+}
+
+img{
+    width: 300px;
 }
 
 
@@ -115,16 +127,24 @@ display: grid;
 @media(max-width:470px){
 
 
+.firstsection{
+   width: 100%;
+}
+
 .description{
-    width: 200px;
+    width: 90%;
+}
+
+
+.secondsection{
+    width: 100%;
 }
 
 li{
     display: none;
 }
-
-
 }
+
 
 
 
