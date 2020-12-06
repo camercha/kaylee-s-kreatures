@@ -93,6 +93,8 @@ li{
 .secondsection{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    
 
    
 }
@@ -104,10 +106,9 @@ display: grid;
     grid-gap: 1rem;
 justify-items: center;
 margin: auto;
-
-
-    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
-    border: 1px solid red;
+ grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+   border: 1px solid red;
+   width: 100%;
   
     
 
@@ -143,12 +144,19 @@ img{
 }
 
 .gallery{
-    
+    width: 300px;
 }
 
 li{
     display: none;
 }
+}
+
+
+@media(min-width:2197px){
+    .gallery{
+        width: 1000px;
+    }
 }
 
 
