@@ -186,6 +186,15 @@ li{
 }
 
 
+@media(max-width:600px){
+    .forsalegallery{
+        display: flex;
+       flex-direction: column-reverse;
+       width: 50%;
+     }
+}
+
+
 @media(max-width:470px){
 
 
@@ -203,7 +212,8 @@ li{
 }
 
 .gallery{
-    width: 300px;
+    width: 200px;
+
 }
 
 li{
@@ -213,6 +223,11 @@ li{
 .thirdsection{
     width: 100%;
 }
+
+
+
+
+
 }
 
 
