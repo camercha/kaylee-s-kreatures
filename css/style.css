@@ -100,26 +100,60 @@ li{
 }
 
 
-
-.gallery{
-display: grid;
-    grid-gap: 1rem;
-justify-items: center;
-margin: auto;
- grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
-   border: 1px solid red;
-   width: 100%;
+.item-a {
+    grid-area: header;
+    background-image: url(https://images.unsplash.com/photo-1584727638096-042c45049ebe?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2024&q=80);
+    background-position: center;
+  }
+  .item-b {
+    grid-area: main;
+    background-image: url('https://images.unsplash.com/photo-1554188248-986adbb73be4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+  }
+  .item-c {
+    grid-area: sidebar;
+    background-image: url('https://images.unsplash.com/photo-1490535004195-099bc723fa1f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1480&q=80');
+    background-position: center;
+    background-size: contain;
+  }
+  .item-d {
+    grid-area: footer;
+    background-image: url('https://images.unsplash.com/photo-1588771431170-db3da0ede538?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80');
+    background-size: cover;
+  }
+  .item-e {
+    grid-area: booter;
+    background-image: url('https://images.unsplash.com/photo-1579541671172-43429ce17aca?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1345&q=80');
+  }
   
+  .gallery {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 200px 200px 200px 100px;
+    grid-template-rows: 200px 200px 200px 200px;
     
+    grid-template-areas: 
+    
+      "header header header header"
+      "main main sidebar sidebar"
+      "footer footer footer footer"
+      'booter booter booter booter'
+      ;
+  }
 
+
+  .thirdsection h2{
+    text-align: center;
+    color: white;
 }
 
-img{
-    width: 300px;
+
+.thirdsection{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+
 }
-
-
-
 
 #spacer{
 
@@ -149,6 +183,10 @@ img{
 
 li{
     display: none;
+}
+
+.thirdsection{
+    width: 100%;
 }
 }
 
