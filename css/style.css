@@ -155,6 +155,27 @@ li{
 
 }
 
+.forsalegallery{
+   display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.forsaleitems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    background-color: red;
+    border: 1px solid blue;
+}
+
+.innerimage{
+    width: 50%;
+    border: 1px solid green;
+    margin: auto;
+}
+
 #spacer{
 
     height: 60px;
