@@ -28,7 +28,7 @@ header{
 }
 
 header p{
-  
+align-self: flex-end;
    border: 1px solid blue;
    color: aqua;
 }
