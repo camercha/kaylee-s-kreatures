@@ -29,26 +29,30 @@ header{
 
 header p{
 align-self: flex-end;
-   border: 1px solid blue;
-   color: #F6BD60;
+   border: 2px solid blue;
+   color: #197278;
    font-size: 25px;
+   color: black;
+background-color: yellow;
+border-radius: 15%;
 }
 
 header h1{
 margin: auto;
 border: 1px solid green;
+border-radius: 15%;
 font-size: 150px;
-
-
-color: #F6BD60;
+color: black;
+background-color: yellow;
 
 
 }
 
 
-@media(max-width:458px){
+@media(max-width:700px){
     header h1{
         font-size: 80px;
+        
     }
 }
 
