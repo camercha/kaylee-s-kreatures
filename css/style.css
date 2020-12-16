@@ -37,7 +37,7 @@ header h1{
 margin: auto;
 border: 1px solid green;
 font-size: 150px;
-float: left;
+
 
 color: #F6BD60;
 
@@ -47,7 +47,7 @@ color: #F6BD60;
 
 @media(max-width:458px){
     header h1{
-        font-size: 50px;
+        font-size: 80px;
     }
 }
 
