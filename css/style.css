@@ -171,9 +171,13 @@ li{
 }
 
 .innerimage{
-    width: 50%;
+    width: 100%;
     border: 1px solid green;
     margin: auto;
+}
+
+.innerimage img{
+    height: 300px;
 }
 
 #spacer{
