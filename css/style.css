@@ -13,17 +13,42 @@ header{
     height:100vh;
   border: 1px solid red;
   background-position:top;
+ 
+  
+}
+
+
+.headertext{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid orange;
+    position: relative;
+   
+    height: 800px;
 }
 
 header p{
-   text-align: end;
+  
    border: 1px solid blue;
+   color: aqua;
 }
 
 header h1{
-justify-self: flex-end;
+margin: auto;
 border: 1px solid green;
 font-size: 150px;
+float: left;
+
+color: #F6BD60;
+
+
+}
+
+
+@media(max-width:458px){
+    header h1{
+        font-size: 50px;
+    }
 }
 
 
