@@ -30,7 +30,8 @@ header{
 header p{
 align-self: flex-end;
    border: 1px solid blue;
-   color: aqua;
+   color: #F6BD60;
+   font-size: 25px;
 }
 
 header h1{
