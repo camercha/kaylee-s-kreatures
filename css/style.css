@@ -19,6 +19,10 @@ header{
   
 }
 
+body{
+    background-color: #197278;
+}
+
 
 
 
@@ -51,6 +55,7 @@ background-color: yellow;
     flex-direction: column;
     border: 1px solid red;
     height: 400px;
+    margin-top: 35px;
 }
 
 #firstsectionPT1{
