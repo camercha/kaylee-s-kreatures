@@ -153,12 +153,24 @@ flex-direction: column;
     min-height: 250px;
 }
 
+.imagediv{
+  border: 2px solid yellow;
+  background-color: saddlebrown;
+
+}
+
+.imagediv img{
+    width: 200px;
+    padding: 25px;
+}
+
 
 .part{
     display: flex;
     flex-direction: row;
     border:  blue 1px solid ;
     min-height: 250px;
+    justify-content: space-around;
 }
 
 
