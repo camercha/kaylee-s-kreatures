@@ -88,6 +88,7 @@ border: 5px solid red;
     width: 90%;
     height: 200px;
     font-size: 15px;
+    background-color: grey;
     
     
 }
@@ -154,6 +155,12 @@ border: 5px solid red;
 
     .title{
         width: 100%;
+    }
+
+
+    .statement2{
+        width: 100%;
+        text-align: center;
     }
 
 
