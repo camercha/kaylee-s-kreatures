@@ -11,8 +11,7 @@ header{
     background-image: url('../images/Italian_guy.jpg');
     width: 100%;
     height:100vh;
- 
-  background-position:top;
+ background-position:top;
   background-repeat: no-repeat;
  background-size: auto;
  
@@ -20,7 +19,10 @@ header{
 }
 
 body{
+    display: flex;
     background-color: #197278;
+    flex-direction: column;
+    height: 100%;
 }
 
 
@@ -30,7 +32,7 @@ body{
 
 header h1{
 text-align: center;
-margin-top: 150px;
+margin-top: 300px;
 border-radius: 15%;
 font-size: 150px;
 color: black;
@@ -44,7 +46,7 @@ background-color: yellow;
     display: flex;
     flex-direction: column;
   
-    height: 400px;
+    min-height: 400px;
     margin-top: 35px;
 }
 
@@ -59,7 +61,7 @@ background-color: yellow;
 .mainpic{
     
     width: 300px;
-    height: 200px;
+    min-height: 200px;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -82,7 +84,7 @@ border: 5px solid red;
 .statement1{
   
     width: 90%;
-    height: 200px;
+    min-height: 200px;
     font-size: 15px;
     background-color: grey;
     
@@ -99,7 +101,7 @@ border: 5px solid red;
 .title{
   
      width: 300px;
-    height: 200px;
+    min-height: 200px;
     background-color: black;
     color: white;
     text-align: center;
@@ -109,11 +111,16 @@ border: 5px solid red;
 .statement2{
    
     width: 90%;
-    height: 200px;
+    min-height: 200px;
     background-color: #EDDDD4;
     font-size: 15px;
 }
 
+
+.secondsection{
+
+    text-align: center;
+}
 
 
 
@@ -158,6 +165,7 @@ border: 5px solid red;
         width: 100%;
         text-align: center;
     }
+
 
 
 
