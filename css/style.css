@@ -26,6 +26,24 @@ body{
 }
 
 
+nav{
+    width: 100%;
+    background-color: yellow;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-end;
+   
+}
+
+nav li{
+    
+    
+}
+
 
 
 
