@@ -33,7 +33,7 @@ body{
 header h1{
 text-align: center;
 margin-top: 300px;
-border-radius: 15%;
+border-radius: 25px;
 font-size: 150px;
 color: black;
 background-color: yellow;
@@ -166,7 +166,9 @@ border: 5px solid red;
         text-align: center;
     }
 
-
+.secondsection h2{
+    font-size: 20px;
+}
 
 
 
