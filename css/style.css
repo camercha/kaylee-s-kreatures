@@ -8,10 +8,10 @@
 header{
     display: flex;
     flex-direction: column;
-    background-image: url('../images/Italian_guy.jpg');
+    background-image: url('../images/HongKong.jpg');
     width: 100%;
     height:100vh;
- background-position:top;
+ background-position:center;
   background-repeat: no-repeat;
  background-size: auto;
  
@@ -139,9 +139,30 @@ border: 5px solid red;
 
 
 .secondsection{
-
+display: flex;
+flex-direction: column;
     text-align: center;
+    min-height: 500px;
+    border:  red 1px solid ;
 }
+
+.gallery{
+    display: flex;
+    flex-direction: column;
+    border:  red 1px solid ;
+    min-height: 250px;
+}
+
+
+.part{
+    display: flex;
+    flex-direction: row;
+    border:  blue 1px solid ;
+    min-height: 250px;
+}
+
+
+
 
 
 
