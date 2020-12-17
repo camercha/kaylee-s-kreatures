@@ -35,7 +35,7 @@ nav ul{
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-items: flex-end;
+    
    
 }
 
@@ -197,7 +197,23 @@ border: 5px solid red;
 
 
 
+@media(min-width:1440px){
 
+    .statement1{
+  
+       font-size: 20px;
+        
+        
+    }
+
+
+    .statement2{
+        font-size: 20px;
+    }
+
+
+
+}
 
 
 
