@@ -29,17 +29,15 @@ body{
 
 
 header h1{
-margin: auto;
-
+text-align: center;
+margin-top: 150px;
 border-radius: 15%;
 font-size: 150px;
 color: black;
 background-color: yellow;
 }
 
-header p{
-    text-align: center;
-}
+
 
 
 #firstsection{
