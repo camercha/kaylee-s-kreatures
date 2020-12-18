@@ -156,21 +156,31 @@ flex-direction: column;
 .imagediv{
   border: 2px solid yellow;
   background-color: saddlebrown;
+  border-radius: 25px;
 
 }
 
 .imagediv img{
-    width: 200px;
+    width: 300px;
     padding: 25px;
 }
 
 
-.part{
+.part1{
     display: flex;
     flex-direction: row;
     border:  blue 1px solid ;
     min-height: 250px;
     justify-content: space-around;
+    background-color: red
+}
+.part2{
+    display: flex;
+    flex-direction: row;
+    border:  blue 1px solid ;
+    min-height: 250px;
+    justify-content: space-around;
+    background-color: papayawhip;
 }
 
 
@@ -225,6 +235,18 @@ flex-direction: column;
 }
 
 
+.part1{
+    flex-direction: column;
+}
+
+.part2{
+    flex-direction: column;
+}
+
+.imagediv img{
+   width: 200px;
+    padding: 5px;
+}
 
 
 
