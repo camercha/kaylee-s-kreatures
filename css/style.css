@@ -107,6 +107,7 @@ border: 5px solid red;
     min-height: 200px;
     font-size: 15px;
     background-color: grey;
+    padding-left: 10px;
     
     
 }
@@ -134,6 +135,7 @@ border: 5px solid red;
     min-height: 200px;
     background-color: #EDDDD4;
     font-size: 15px;
+    padding-left: 10px;
 }
 
 
@@ -143,6 +145,11 @@ flex-direction: column;
     text-align: center;
     min-height: 500px;
     border:  red 1px solid ;
+}
+
+.secondsection h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .gallery{
