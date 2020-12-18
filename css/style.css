@@ -207,7 +207,18 @@ footer ul{
 
 
 
+@media(max-width:1221px){
 
+.part1{
+    flex-direction: column ;
+}
+
+.part2{
+    flex-direction: column ;
+}
+
+
+}
 
 
 
@@ -255,6 +266,11 @@ footer ul{
     font-size: 20px;
 }
 
+.imagediv img{
+    width: 300px;
+    padding: 25px;
+}
+
 
 .part1{
     flex-direction: column;
@@ -264,10 +280,7 @@ footer ul{
     flex-direction: column;
 }
 
-.imagediv img{
-   width: 200px;
-    padding: 5px;
-}
+
 
 
 
