@@ -185,6 +185,12 @@ flex-direction: column;
 
 footer{
     text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+footer ul{
+    list-style: none;
 }
 
 
