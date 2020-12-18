@@ -23,6 +23,7 @@ body{
     background-color: #197278;
     flex-direction: column;
     height: 100%;
+    font-family: 'JetBrains Mono', monospace;
 }
 
 
@@ -181,6 +182,10 @@ flex-direction: column;
     background-color: papayawhip;
 }
 
+
+footer{
+    text-align: center;
+}
 
 
 
