@@ -189,8 +189,13 @@ footer{
     flex-direction: column;
 }
 
+footer p{
+    color: white; 
+}
+
 footer ul{
     list-style: none;
+    color: white;
 }
 
 
